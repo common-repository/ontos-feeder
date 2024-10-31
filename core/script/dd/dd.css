@@ -1,0 +1,78 @@
+/*
+Ontos Feeder, provides data semantically relevant to the text being edited.
+Copyright 2010 Ontos AG
+
+This file is part of Ontos Feeder.
+
+Ontos Feeder is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Ontos Feeder is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with Ontos Feeder.  If not, see <http://www.gnu.org/licenses/>.
+*/
+ 
+#popupmenu{
+position: absolute;
+background-color: white;
+border:1px solid black;
+font: normal 12px Verdana;
+line-height: 18px;
+z-index: 100;
+visibility: hidden;
+}
+
+#popupmenu a{
+text-decoration: none;
+padding-left: 6px;
+color: black;
+display: block;
+cursor:pointer;
+}
+
+#popupmenu label{
+text-decoration: none;
+padding-left: 6px;
+color: black;
+display: block;
+cursor:pointer;
+}
+
+#popupmenu a:hover{ /*hover background color*/
+background-color: #CCFF9D;
+}
+
+#popupmenu label:hover{ /*hover background color*/
+background-color: #CCFF9D;
+}
+
+.img_button {
+	width:16px;
+	height:16px;
+	margin-left:5px;
+	margin-right:5px;
+	float:none;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.img_button a {
+	color:yellow;
+}
+
+#popupmenu span {
+	font-size:12px;
+	font-family:"Times New Roman",Times,serif;
+}
+
+#popupmenu fieldset {
+	padding:0px; 
+	margin-top:0px;
+	margin-bottom:5px;
+}
